@@ -1,0 +1,37 @@
+package ProvaDRecuperação4ºBimestre;
+
+public  abstract class Arma extends Item {
+	public abstract class Arma {
+		private int danoMax;
+
+public Arma(nome,danoMax,durabilidade){
+          nome=setNome();
+          danoMax=setMaxHP();
+          durabilidade=usarApenasUmaMao();
+          
+}
+		public int atacar() {
+			 for (int i = 0; i < 10; i++) {
+			    	System.out.println(gerador.nextInt());
+			 }
+			 	
+		}
+
+		public boolean usarApenasUmaMao() {
+
+		}
+
+		public int getDanoMax() {
+			return danoMax;
+		}
+
+		public void setDanoMax(int danoMax) {
+			this.danoMax = danoMax;
+		}
+	public boolean usarApenasUmaMao(){
+		
+	}
+	
+	}
+	
+}
