@@ -1,0 +1,19 @@
+package ProvaDRecuperação4ºBimestre;
+
+public abstract class Item {
+	protected String nomeItem;
+
+	public String getNome() {
+		return nomeItem;
+	}
+
+	public void setNome(String nome) {
+		this.nomeItem = nome;
+	}
+
+	public String examinar() {
+		return null;
+
+	}
+
+}
