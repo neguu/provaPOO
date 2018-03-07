@@ -1,0 +1,8 @@
+package ProvaDRecuperação4ºBimestre;
+
+public class CorpoACorpo extends Arma {
+public class CorpoACorpo {
+	
+
+}
+}
