@@ -1,0 +1,50 @@
+package ProvaDRecuperação4ºBimestre;
+
+
+
+public class Personagem {
+
+	private String nome;
+	private int maxHP;
+	private int HPAtual;
+
+	public Personagem() {
+
+	}
+public  void equiparArma( arma a){
+	
+}
+public void addPocao(pocao p){
+	
+}
+ public  void recuperarVida(){
+	 
+ }
+  public void sofrerDano(int dano){
+	  
+  }
+  public String status(){
+	return nome;
+	  
+  }
+public int getHPAtual() {
+	return HPAtual;
+}
+public void setHPAtual(int hPAtual) {
+	HPAtual = hPAtual;
+}
+public int getMaxHP() {
+	return maxHP;
+}
+public void setMaxHP(int maxHP) {
+	this.maxHP = maxHP;
+}
+ 
+
+
+
+
+}
+
+
+
