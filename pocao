@@ -1,0 +1,25 @@
+package ProvaDRecuperação4ºBimestre;
+
+public abstract class Pocao extends Item {
+	public abstract class Pocao implements IUsavel {
+
+		private int HPRestaurado;
+
+		public int getHPRestaurado() {
+			return HPRestaurado;
+		}
+
+		public void setHPRestaurado(int hPRestaurado) {
+			HPRestaurado = hPRestaurado;
+		}
+
+	public void pocao (HPRestaurado,nome){
+		nome= setNomeItem();
+		HPRestaurado=setHPAtual;
+		
+		
+		
+	}
+	}
+}
+}
