@@ -1,0 +1,7 @@
+package ProvaDRecuperação4ºBimestre;
+
+public class AtaqueADistancia extends Arma {
+	public class AtaqueADistancia {
+
+	}
+}
