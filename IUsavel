@@ -1,0 +1,8 @@
+package ProvaDRecuperação4ºBimestre;
+
+public interface IUsavel {
+    
+	public static   int usar(){
+		return HPRestaurado;
+	}
+}
